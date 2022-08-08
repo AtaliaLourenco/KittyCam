@@ -877,3 +877,106 @@
     margin-left: -25px;
   }
 }
+
+.bg-ava {
+  background-image: url(./IMG/fundo4.jpg);
+  width: 100%;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.grid-avalia {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+}
+
+.bg-p {
+  filter: drop-shadow(10px 10px 20px rgba(0, 0, 0, 0.50));
+  background-image: url(./IMG/Rectangle-15.png);
+  padding: 20px;
+  border-radius: 40px;
+}
+
+.img-come {
+  width: 100%;
+  padding: 20px;
+  border-radius: 100%;
+}
+
+.img-avaliacao {
+  width: 50%;
+}
+
+.tt {
+  color: #000;
+}
+
+.shado {
+  filter: drop-shadow(4px 4px 0px #A5D090);
+}
+
+
+@media (max-width: 900px) {
+  .grid-avalia {
+    gap: 10px;
+  }
+}
+
+@media (max-width: 700px) {
+  .grid-avalia {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 500px) {
+  .grid-avalia {
+    grid-template-columns: 1fr;
+  }
+}
+
+.bg-footer {
+  background: #B6B5B1;
+}
+
+.logo-foot {
+  font-family: 'Righteous', cursive;
+  text-align: center;
+  padding: 20px;
+  align-self: center;
+  color: #000;
+}
+
+.list-1 {
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  list-style: none;
+  margin-left: -20px;
+}
+
+.list-1 a {
+  text-decoration: none;
+  color: #000;
+}
+
+.list-1 li {
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 1.5rem;
+}
+
+.list-2 {
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  list-style: none;
+  padding: 10px;
+  justify-content: center
+}
+
+.img-center {
+  margin: auto;
+  padding: auto;
+}
