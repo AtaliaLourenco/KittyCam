@@ -154,7 +154,6 @@ a[aria-expanded="true"] {
 /***** Buttons *****/
 
 a.btn-customized {
-	margin-left: 50px;
 	margin-right: 5px;
 	padding: .75rem 1.5rem;
 	background: linear-gradient(180deg, #EAF6DD 0%, #A5D090 100%);
@@ -180,35 +179,6 @@ a.btn-customized {
 		width: 80px;
 	}
 }
-
-@media (max-width: 1000px) {
-	a.btn-customized {
-		width: 70px;
-	}
-}
-
-@media (max-width: 900px) {
-	a.btn-customized {
-		width: 70px;
-		height: 50px;
-	}
-}
-
-@media (max-width: 700px) {
-	a.btn-customized {
-		width: 65px;
-		height: 45px;
-	}
-}
-
-@media (max-width: 550px) {
-	a.btn-customized {
-		width: 60px;
-		height: 40px;
-		margin: auto;
-	}
-}
-
 
 
 a.btn-customized:hover,
