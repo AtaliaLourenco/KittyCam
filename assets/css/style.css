@@ -8,14 +8,6 @@ body {
 }
 
 /***** Sidebar *****/
-.fa-align-left:before {
-	content: url(./IMG/menu.svg);
-}
-
-
-.fa-arrow-left:before {
-	content: url(./IMG/close.svg);
-}
 
 .sidebar {
 	width: 250px;
@@ -43,8 +35,6 @@ body {
 	top: 10px;
 	right: 15px;
 	transition: all .3s;
-	background: #79BD94;
-	border: solid 1px #79BD94;
 	border-radius: 4px;
 	text-align: center;
 	line-height: 35px;
@@ -53,20 +43,17 @@ body {
 
 .dismiss:hover,
 .dismiss:focus {
-	background: #79BD94;
 	color: #fff;
-	border: solid 1px #79BD94;
 }
 
 .sidebar .logo {
-	padding: 20px;
+	padding-top: 15px;
 }
 
 .sidebar .logo a {
 	display: inline-block;
 	width: 172px;
 	height: 34px;
-	background: url(./IMG/KittyCam.svg) left top no-repeat;
 	border: 0;
 	text-indent: -999999px;
 }
