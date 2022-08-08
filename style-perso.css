@@ -773,8 +773,20 @@
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
 }
 
-@media (max-width: 1400px) {
+@media (max-width: 1500px) {
   .btn-perso2 {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 1000px) {
+  .btn-perso2 {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .btn-perso2 {
+    font-size: 1rem;
   }
 }
