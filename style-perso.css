@@ -913,9 +913,6 @@
   color: #000;
 }
 
-.shado {
-  filter: drop-shadow(4px 4px 0px #A5D090);
-}
 
 
 @media (max-width: 900px) {
@@ -934,6 +931,26 @@
   .grid-avalia {
     grid-template-columns: 1fr;
   }
+
+  .bg-p {
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  .img-come {
+    width: 80%;
+  }
+
+  .tt {
+    font-size: 1rem;
+  }
+
+  .tt-p {
+    font-size: 0.8rem;
+  }
+
 }
 
 .bg-footer {
