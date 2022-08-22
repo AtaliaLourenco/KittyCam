@@ -9,6 +9,8 @@ Product Landing Page - KittyCam<br> <br>
 Personalized Product Landing Page using  Bootstrap and jQuery framework. <br> 
 (PS: All information on this site is fictitious, and the site is designed to show knowledge and personal portfolio).
 
+## Design 
+![Web 1](https://github.com/AtaliaLourenco/TOPSSeriesdaNetflix/blob/main/IMG-EDIT/KitCam-Landing-Page.png)
 
 ## Layout Web
 ![Web 1](https://github.com/AtaliaLourenco/KittyCam/blob/main/Design/Frame%201.png)
@@ -18,6 +20,13 @@ Personalized Product Landing Page using  Bootstrap and jQuery framework. <br>
 </p>
 
 # Used Technology
+
+## Design 
+- Figma
+- Adobe XD
+- Adobe Illustrator
+- Photopea
+
 ## Front End
 - HTML
 - CSS
